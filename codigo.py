@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 # carregar a base de vendas
-tabela_vendas = pd.read_csv("Vendas.csv")
+tabela_vendas = pd.read_csv("vendas.csv")
 
 st.write("# Sistema de Vendas") #uma hashtag deixa o texo grande, duas deixa o texto pequeno
 
